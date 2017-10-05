@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="MonthlyCalendar" datatype="html">
+        <source>Monthly Calendar</source>
+        <target>Calendário Mensal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src\app\side-menu\side-menu.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="DailyCalendar" datatype="html">
+        <source>Daily Calendar</source>
+        <target>Calendário Diário</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src\app\side-menu\side-menu.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Schedules" datatype="html">
+        <source>Schedules</source>
+        <target>Horários</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src\app\side-menu\side-menu.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Medics" datatype="html">
+        <source>Medics</source>
+        <target>Médicos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src\app\side-menu\side-menu.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Exams" datatype="html">
+        <source>Exams</source>
+        <target>Exames</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src\app\side-menu\side-menu.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
