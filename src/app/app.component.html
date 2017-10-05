@@ -1,4 +1,13 @@
-<h1>MedSched Client</h1>
-<mwl-calendar-month-view
-  [viewDate]="viewDate">
+<!-- <button (click)="toggleMenu()" class="hamburger">
+  <span>Menu</span>
+</button> -->
+<nav class="navbar navbar-dark bg-dark">
+  <button (click)="toggleMenu()" class="navbar-toggler" type="button">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+<h3>MedSched Client</h3>
+<mwl-calendar-month-view [viewDate]="viewDate">
 </mwl-calendar-month-view>
+<app-side-menu [@slideInOut]="menuState">
+</app-side-menu>
