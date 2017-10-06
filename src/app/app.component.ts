@@ -20,7 +20,6 @@ import { Component, trigger, state, style, transition, animate } from '@angular/
 
 export class AppComponent {
   title = 'app';
-  viewDate = new Date();
   menuState:string = 'out';
 
   toggleMenu(){
