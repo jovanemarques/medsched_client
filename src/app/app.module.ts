@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CalendarModule } from 'angular-calendar';
+import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
 import { SideMenuComponent } from './side-menu/side-menu.component';
@@ -17,6 +18,7 @@ import { MontlyScheduleComponent } from './montly-schedule/montly-schedule.compo
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    MaterializeModule,
     CalendarModule.forRoot()
   ],
   providers: [],
