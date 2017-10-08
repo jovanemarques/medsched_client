@@ -11,14 +11,6 @@ import { CalendarEvent, CalendarMonthViewDay } from 'angular-calendar';
   templateUrl: './montly-schedule.component.html',
   styleUrls: ['./montly-schedule.component.css'],
   styles: [
-    `
-    .red-cell {
-      background-color: red !important;
-    }
-    .blue-cell {
-      background-color: blue !important;
-    }
-  `
   ]
 })
 export class MontlyScheduleComponent {
@@ -27,7 +19,7 @@ export class MontlyScheduleComponent {
   viewDate: Date = new Date();
   holidays: number[] = [10, 19]; // call from some webservice
 
-  private isHoliday(day){ // make a funcional function, maybe?
+  private isHoliday(day){ // do a funcional function, maybe?
     let isHoliday = false;
     for(let holiday of this.holidays){
       if (holiday === day){
@@ -41,7 +33,7 @@ export class MontlyScheduleComponent {
     body.forEach(day => {
       if (day.isWeekend || this.isHoliday(day.date.getDate())) {
         //day.cssClass = 'red-cell';
-        day.backgroundColor = 'rgb(254, 218, 218)';
+        day.backgroundColor = 'rgb(255, 240, 240)';
       }
     });
   }
