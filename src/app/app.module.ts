@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CalendarModule } from 'angular-calendar';
 import { MaterializeModule } from 'angular2-materialize';
+import { ROUTING } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { SideMenuComponent } from './side-menu/side-menu.component';
@@ -21,7 +22,8 @@ import { DailyScheduleComponent } from './daily-schedule/daily-schedule.componen
     BrowserModule,
     BrowserAnimationsModule,
     MaterializeModule,
-    CalendarModule.forRoot()
+    CalendarModule.forRoot(),
+    ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
