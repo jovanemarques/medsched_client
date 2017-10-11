@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import { SideMenuComponent } from './side-menu/side-menu.component';
 import { MontlyScheduleComponent } from './montly-schedule/montly-schedule.component';
 import { DailyScheduleComponent } from './daily-schedule/daily-schedule.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideMenuComponent,
     MontlyScheduleComponent,
-    DailyScheduleComponent
+    DailyScheduleComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
